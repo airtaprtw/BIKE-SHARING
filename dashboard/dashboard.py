@@ -142,11 +142,6 @@ def load_data():
 # Load data
 hour = load_data()
 
-# Sidebar section (optional for additional inputs)
-with st.sidebar:
-    st.title("Bike Sharing Dashboard")
-    st.write("Select filters to customize your view.")
-
 # Main section
 st.write("This dashboard visualizes bike sharing data based on time (hourly) of day and working day status.")
 
